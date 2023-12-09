@@ -35,23 +35,23 @@
     <ShellContent
         Title="Kerdi hesaplama"
         Icon="kerdi.png"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:Kerdi_hesaplam}"
+        Route="Kerdi_hesaplam" />
     <ShellContent
         Title="Vücut kitle indexsi"
         Icon="body.png"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:Body}"
+        Route="ColorPicker1" />
     <ShellContent
         Title="Renk seçici"
         Icon="color.png"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:ColorPicker}"
+        Route="ColorPicker" />
     <ShellContent
         Title="Yapılacaklar"
         Icon="yap.png"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:Task}"
+        Route="Task" />
     </FlyoutItem>
 
 </Shell>
